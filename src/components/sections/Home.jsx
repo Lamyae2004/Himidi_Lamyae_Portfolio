@@ -7,7 +7,7 @@ export const Home = () => {
         <h1 className="text-5xl md:text-7xl font-bold mb-6 gradient-text bg-gradient-to-r from-purple-500 to-pink-600 bg-clip-text text-transparent leading-tight">
           Hi, I'm Lamyae HIMIDI </h1>
         <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-          I'm a fourth-year computer engineering student passionate about
+          I'm a fifth-year computer engineering student passionate about
           software development and tech innovation. I enjoy solving
           problems and building efficient, user-friendly solutions.
         </p>

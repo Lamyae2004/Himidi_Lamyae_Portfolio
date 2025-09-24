@@ -67,6 +67,12 @@ export const About = () =>{
 
 </p>
                    </div>
+                    <div>
+                    <h4 className="font-semibold"> Intern at Perfect Industry Kenitra (06/2025 - 08/2025)</h4>
+                    <p>Development of an internal web application for comprehensive company process management: creation and tracking of purchase/sales requests, management of quotes, invoices, and inventory, as well as automatic document generation. Implementation of dashboards with reports and charts to visualize activity and profitability, using React.js, Node.js/Express, and MySQL
+
+</p>
+                   </div>
                 </div>
               </div>
          </div>
