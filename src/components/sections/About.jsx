@@ -1,7 +1,23 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () =>{
-    const frontendSkills = ["React","Html","CSS","bootstrap"];
-    const backendSkills = ["Node.js","php","java","Ruby On Rails","c#"];
+    const frontendSkills = [
+  "React",
+  "HTML",
+  "CSS",
+  "Bootstrap",
+  "Tailwind CSS"
+];
+
+const backendSkills = [
+  "Node.js",
+  "PHP",
+  "Java",
+  "Spring Boot",
+  "Spring Data",
+  "Ruby On Rails",
+  "C#"
+];
+
      return <section id="about" className="min-h-screen flex items-center justify-center py-20">
       <RevealOnScroll>
       <div className="max-w-3xl mx-auto px-4">
