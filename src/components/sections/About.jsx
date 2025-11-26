@@ -7,7 +7,6 @@ export const About = () =>{
   "Bootstrap",
   "Tailwind CSS"
 ];
-
 const backendSkills = [
   "Node.js",
   "PHP",
