@@ -74,20 +74,20 @@ const backendSkills = [
               <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                <h3 className="text-xl font-bold mb-4">Experiences</h3>
                 <div className="space-y-4 text-gray-300">
-                   <div>
-                    <h4 className="font-semibold"> Intern at MARSA MAROC Casablanca (07/2024 - 08/2024)</h4>
-                    <p>Designed and developed a web application for Marsa Maroc to manage printers and toner inventory.
+                <ul className="list-disc list-inside text-gray-300 space-y-2">
+                <li>
+                  <strong>
+                  Intern at MARSA MAROC Casablanca (07/2024 - 08/2024)
+                  </strong> -Designed and developed a web application for Marsa Maroc to manage printers and toner inventory.
                     The solution automates supplier, printer, and stock management processes, integrates automated email
                      notifications, and significantly enhances operational efficiency.
-
-</p>
-                   </div>
-                    <div>
-                    <h4 className="font-semibold"> Intern at Perfect Industry Kenitra (06/2025 - 08/2025)</h4>
-                    <p>Development of an internal web application for comprehensive company process management: creation and tracking of purchase/sales requests, management of quotes, invoices, and inventory, as well as automatic document generation. Implementation of dashboards with reports and charts to visualize activity and profitability, using React.js, Node.js/Express, and MySQL
-
-</p>
-                   </div>
+                </li>
+                <li>
+                  <strong>
+                  Intern at Perfect Industry Kenitra (06/2025 - 08/2025)
+                  </strong> -Development of an internal web application for comprehensive company process management: creation and tracking of purchase/sales requests, management of quotes, invoices, and inventory, as well as automatic document generation. Implementation of dashboards with reports and charts to visualize activity and profitability, using React.js, Node.js/Express, and MySQL
+                </li>
+               </ul>
                 </div>
               </div>
          </div>
