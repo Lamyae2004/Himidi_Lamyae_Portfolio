@@ -131,6 +131,7 @@ export const Projects = () => {
                 "Microservices",
                 "React.js",
                 "Shadcn UI",
+                "PostgreSQL",
                 "Android Studio"
                 ].map((tech) => (
                 <span
