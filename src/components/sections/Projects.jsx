@@ -110,6 +110,49 @@ export const Projects = () => {
                     <a href="https://github.com/Lamyae2004/MyAvito" className="text-purple-400 hover:text-purple-300 transition-colors my-4">View Project  </a>
                 </div>
             </div>
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-pink-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
+            <h3 className="text-xl font-bold mb-2">
+                Class Manager
+            </h3>
+
+            <p className="text-gray-400 mb-4">
+                Class Manager is a web and mobile application designed for class management.
+                The backend is built with Spring Boot, using Spring Security and JWT-based
+                authentication, and follows a microservices architecture.
+                The web frontend is developed with React.js and the Shadcn UI library,
+                while the mobile application is built using Android Studio.
+            </p>
+
+            <div className="flex flex-wrap gap-2 mb-4">
+                {[
+                "Spring Boot",
+                "Spring Security",
+                "JWT",
+                "Microservices",
+                "React.js",
+                "Shadcn UI",
+                "Android Studio"
+                ].map((tech) => (
+                <span
+                    key={tech}
+                    className="bg-pink-500/10 text-pink-500 py-1 px-3 rounded-full text-sm
+                    hover:bg-pink-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
+                >
+                    {tech}
+                </span>
+                ))}
+            </div>
+
+            <div className="flex justify-between items-center">
+                <a
+                href="https://github.com/Lamyae2004/ClassManager"
+                className="text-purple-400 hover:text-purple-300 transition-colors my-4"
+                >
+                View Project
+                </a>
+            </div>
+            </div>
+
         </div>
     </div>
     </RevealOnScroll>
